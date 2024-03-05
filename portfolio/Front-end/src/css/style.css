@@ -1,0 +1,122 @@
+*{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  }
+  html{
+    margin: 0px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: #330867 100%;
+    height: 100%;
+  }
+  body {
+    /*overflow-y: hidden; /* Impede a rolagem vertical */
+  }
+
+  logo-banner{
+    position: relative;
+    width: 40px;
+  }
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover{
+    opacity: 0.7;
+  }
+  .logo{
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: rgb(31, 30, 30);
+    height: 8vh;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  .conteudo{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    padding: 100px;
+  }
+  .container{
+    padding: 2px 16px;
+  }
+  .fim{
+    margin-top: 10%;
+  }
+  .footer{
+  background-color: rgb(31, 30, 30);
+  padding: 100px;
+  bottom: 0;    
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  }
+  .footer1{
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .footer2{
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+  }
+  .footer3{
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+   }
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #000000;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .footer{
+      display: none;
+    }
+  } 
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+  
