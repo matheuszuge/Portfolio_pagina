@@ -1,36 +1,24 @@
-#banner{
-    display: block;
-    width: 100vw;
-    height: 28vh;
-    text-align: center;
-    background-color: #330867;
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    padding-bottom: 200px;
-}
-section#sobre{
+#sobre{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 2.5rem;
     color: black;
     margin: 2.5rem 10rem;
-    padding-top: 0% ;
+    padding-top: 5vh ;
     margin-top: 0%;
+    position: relative;
 }
-.profile{
-    width: 100%;
+.section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 2.5rem;
+    padding: 4rem;
     color: black;
     margin: 2.5rem 10rem;
-}
+    position: relative;
+
+} 
 .intro {
     align-items: center;
     padding: 4rem 2.5rem;

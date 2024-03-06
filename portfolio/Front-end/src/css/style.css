@@ -7,17 +7,22 @@
   html{
     margin: 0px;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-color: #330867 100%;
+    background-color: #ffffff;
     height: 100%;
   }
+  
   body {
-    /*overflow-y: hidden; /* Impede a rolagem vertical */
+    /*overflow-y: hidden; /* Impede a rolagem vertical   */
+    margin-bottom: 20vh;
   }
 
-  logo-banner{
-    position: relative;
+
+  /* .logo-banner{
     width: 40px;
-  }
+    padding: 50px;
+    display: relative;
+    position: relative;
+  }  */
   a{
     color: #ffffff;
     text-decoration: none;
@@ -57,13 +62,14 @@
   }
   .footer{
   background-color: rgb(31, 30, 30);
-  padding: 100px;
   bottom: 0;    
   color: white;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-around;
-  height: 10vh;
+  width: 100%;
+  height: 20vh;
+  padding-top: 10vh;
   }
   .footer1{
     width: 33%;
