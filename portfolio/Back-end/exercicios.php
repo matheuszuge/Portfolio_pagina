@@ -138,6 +138,12 @@ $cores = [azul, amarelo, magenta];
 //b) Use um loop foreach para imprimir cada cor do array.
 
 
+
+
+
+
+
+
 //Pergunta 1: Manipulação de Strings
 
 //a) Dada a string $fruta = "maça", use a função strtoupper para converter a string para maiúsculas.
@@ -149,6 +155,7 @@ $limpaPalavra = strtoupper($fruta);
 //b) Imprima a string resultante após a conversão.
 
 echo ($limpaPalavra)
+echo $frutaMaiuscula; // CORREÇÃO
 
 /*Pergunta 2: Estruturas de Controle
 
@@ -158,34 +165,35 @@ Se for verdadeiro, imprima "Maior de idade",
 caso contrário, imprima "Menor de idade".
 */
 
-if $idade >= 18; {
+if ($idade >= 18;) {
     echo "você é de maior";
-else {
+} else {
     echo "você é de menor";
 }    
-}
+
 //b) Use a variável $idade = 22 para testar sua estrutura condicional.
 
 $idade = 22;
 
-if $idade >= 18; {
+if ($idade >= 18;) {
     echo "você é de maior";
-else {
+} else {
     echo "você é de menor";
 }    
-}
+
+
 /*Pergunta 3: Loops e Arrays
 
 a) Crie um array chamado $numeros com os valores 2, 4, 6, 8, 10.
 */
-$numeros = array[2 , 4, 6, 8, 10];
+$numeros = array(2 , 4, 6, 8, 10);
 
 /*b) Utilize um loop foreach para imprimir cada número do array.
 */
-$numeros = array[2 , 4, 6, 8, 10];
-foreach ($numeros as $num);
-echo $num."br";
-
+$numeros = array(2 , 4, 6, 8, 10);
+foreach ($numeros as $num) {
+    echo $num."br";
+}
 /*Pergunta 4: Funções
 
 a) Modifique a função soma que você criou anteriormente 
@@ -210,12 +218,11 @@ a) Crie um array chamado $frutas com as seguintes frutas:
 $frutas = array("uva", "morango", "abacaxi");
 
 /*b) Utilize uma estrutura de controle para imprimir "Gosto de [fruta]"
+*/
+echo "Gosto de $fruta <br>";
 
-
-para cada fruta no array.
-
+/*para cada fruta no array.
 Instruções para Responder:
-
 Escreva o código PHP para cada pergunta.
 Se precisar explicar o raciocínio ou a lógica por trás do código, sinta-se à vontade para fazer isso.
 Espero que essas perguntas ajudem a consolidar seus conhecimentos em PHP!
