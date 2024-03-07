@@ -151,26 +151,21 @@ $cores = [azul, amarelo, magenta];
 $fruta  = "maça";
 $limpaPalavra = strtoupper($fruta);
 
-
 //b) Imprima a string resultante após a conversão.
 
-echo ($limpaPalavra)
 echo $frutaMaiuscula; // CORREÇÃO
 
 /*Pergunta 2: Estruturas de Controle
-
 a) Crie uma estrutura condicional (if/else) que verifica se a variável $idade 
 /*é maior ou igual a 18. 
 Se for verdadeiro, imprima "Maior de idade", 
 caso contrário, imprima "Menor de idade".
 */
-
 if ($idade >= 18;) {
     echo "você é de maior";
 } else {
     echo "você é de menor";
 }    
-
 //b) Use a variável $idade = 22 para testar sua estrutura condicional.
 
 $idade = 22;
@@ -180,10 +175,7 @@ if ($idade >= 18;) {
 } else {
     echo "você é de menor";
 }    
-
-
 /*Pergunta 3: Loops e Arrays
-
 a) Crie um array chamado $numeros com os valores 2, 4, 6, 8, 10.
 */
 $numeros = array(2 , 4, 6, 8, 10);
