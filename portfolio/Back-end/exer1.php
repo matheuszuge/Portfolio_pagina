@@ -14,7 +14,6 @@ function conta($a, $b, $operacao) {
             return "Operação inválida";
     }
 }
-
 $a = 5;
 $b = 10;
 $operacao = 'somar';
@@ -136,11 +135,6 @@ a) Crie um array chamado $cores com três cores diferentes.*/
 $cores = [azul, amarelo, magenta];
 
 //b) Use um loop foreach para imprimir cada cor do array.
-
-
-
-
-
 
 
 
