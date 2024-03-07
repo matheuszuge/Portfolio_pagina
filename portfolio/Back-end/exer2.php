@@ -60,7 +60,6 @@ function mediaArray($numeros) {
 }
 $numeros = array("2", "2", "3", "4")
 
-
 //b) Teste a função com um array de números de sua escolha.
 
 //Exercício 5: Estruturas de Controle e Strings
