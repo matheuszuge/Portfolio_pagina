@@ -149,5 +149,20 @@ echo "nome: " .$lista['nome'] . "<br/>";
 echo "força: " .$lista['atributos']['força'] . "<br/>";
 echo "vida: " .$lista['atributos']['vida'];
 
+//---- exercico de variavel b7 web ------//
+
+$idiade = 40;
+
+if($idade >= 18){
+    echo 'menor de idade';
+} else {
+    echo 'maior de idade'
+}
+
+//exercicio de operador ternario
+
+echo ($idade <18) ? 'menor de idade' : 'maior de idade';
+$idade = ($idade <18) ? 'menor de idade' : 'maior de idade';
+$idade = ($idade <18) ? false : true;
 
 />
