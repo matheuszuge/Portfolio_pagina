@@ -10,41 +10,6 @@
 </head>
 <head>
   <title>Exemplo de formulário HTML</title>
-  <style>
-    form {
-      width: 400px;
-      margin: 0 auto;
-      font-family: Arial, sans-serif;
-    }
-    label {
-      display: block;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-    input[type=text],
-    select,
-    textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      font-size: 16px;
-    }
-    input[type=submit] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    input[type=submit]:hover {
-      background-color: #45a049;
-    }
-  </style>
 </head>
 <body>
     <nav>
@@ -57,8 +22,9 @@
               <li><a class="contato" href="/portfolio/Front-end/src/html/contato.html">Contato</a></li>
             </ul>
       </nav>
-  <h1>Mande uma Mensagem</h1>
-  <form>
+  <div class="formularioContato">
+    <h1 class="titutloContato">Mande uma Mensagem</h1>
+    <form>
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
     <label for="email">E-mail:</label>
@@ -73,6 +39,7 @@
     <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
     <input type="submit" value="Enviar">
   </form>
+</div>
   <div class=" Fim"></div>
   <div class="footer">
     <div class="footer1">

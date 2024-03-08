@@ -56,92 +56,85 @@ echo verificarPalindromo($palavra1); // Deveria retornar true
 echo verificarPalindromo($palavra2); // Deveria retornar true
 echo verificarPalindromo($palavra3); // Deveria retornar false
 
-//Pergunta 1: Variáveis e Saída de Dados
-
-//a) Declare uma variável chamada $nome com o valor "João".
-
+/*Pergunta 1: Variáveis e Saída de Dados
+a) Declare uma variável chamada $nome com o valor "João".
+*/
 $nome = "joão";
 
-
-//b) Use a função echo para imprimir a seguinte mensagem na tela: "Olá, João!"
+/*b) Use a função echo para imprimir a seguinte mensagem na tela: "Olá, João!"
+*/
 
 $nome = "joão";
 echo "ola ,$nome";
 
-//Pergunta 2: Estruturas de Controle
-
-//a) Crie uma estrutura condicional (if/else) que verifica se um número é positivo, negativo ou zero.
+/*Pergunta 2: Estruturas de Controle
+a) Crie uma estrutura condicional (if/else) que verifica se um número é positivo, negativo ou zero.
+*/
 
 if num >= 0 {
-    return echo ($num) "é positivo"   
-else {
+    return echo ($num) "é positivo";
+} else {
     if num === 0;
-        return echo ($num) "é igual a zero"
+        return echo ($num) "é igual a zero";
 }
-default: echo ($num) "é negativo"
-}
+default: echo ($num) "é negativo";
+
 
 //b) Use a variável $numero = 7 para testar sua estrutura condicional.
 
 function operacao (n1) {
     if num >= 0 {
-        return echo ($num) "é positivo"   
-    else {
+        return echo ($num) "é positivo";   
+    } else {
         if num === 0;
-            return echo ($num) "é igual a zero"
+            return echo ($num) "é igual a zero";
         }
-    default: echo ($num) "é negativo"
+    default: echo ($num) "é negativo";
     }
 }
 
 echo operacao(7);
 
 
-//Pergunta 3: Loops
-
-//a) Crie um loop for que imprima os números de 1 a 5.
-
-//b) Em seguida, crie um loop while que faça o mesmo.
-
-//Pergunta 4: Funções
-
-//a) Crie uma função chamada soma que aceita dois parâmetros e retorna a soma deles.
+/*Pergunta 3: Loops
+a) Crie um loop for que imprima os números de 1 a 5.
+b) Em seguida, crie um loop while que faça o mesmo.
+Pergunta 4: Funções
+a) Crie uma função chamada soma que aceita dois parâmetros e retorna a soma deles.
+*/
 
 function soma(n1, n2) {
     retunr n1 + n2;
 }
-echo soma() 
+echo soma(); 
 
-b) Use a função para somar os números 10 e 5.
+//b) Use a função para somar os números 10 e 5.
 
 function soma($n1, $n2) {
     retunr n1 + n2;
 }
-echo soma(10, 5) 
+echo soma(10, 5); 
 
 /*Pergunta 5: Manipulação de Strings
-
- a) Declare uma string chamada $fruta com o valor "maçã".
+//a) Declare uma string chamada $fruta com o valor "maçã".
 */
 
-$fruta = "maça"
+$fruta = "maça";
 
 /*b) Use a função strlen para imprimir o comprimento da string.
-
-Pergunta Bônus: Arrays
-
+//Pergunta Bônus: Arrays
 a) Crie um array chamado $cores com três cores diferentes.*/
 
-$cores = [azul, amarelo, magenta];
+$cores = [
+    azul,
+    amarelo, 
+    magenta
+];
 
-//b) Use um loop foreach para imprimir cada cor do array.
-
-
-
+/*b) Use um loop foreach para imprimir cada cor do array.
 //Pergunta 1: Manipulação de Strings
-
-//a) Dada a string $fruta = "maça", use a função strtoupper para converter a string para maiúsculas.
-
+a) Dada a string $fruta = "maça", use a função strtoupper para converter a string para maiúsculas.
+*/
 $fruta  = "maça";
 $limpaPalavra = strtoupper($fruta);
 
