@@ -4,7 +4,12 @@
 
 //a) Crie um array chamado $paises com os nomes de cinco países diferentes.
 
-$paises = array=["gales", "frança", "italia", "brasil", "venezuela"]
+$paises = array=[
+    "gales", 
+    "frança", 
+    "italia", 
+    "brasil", 
+    "venezuela"]
 
 //b) Utilize um loop for para imprimir cada país do array.
 
@@ -69,7 +74,6 @@ $numeros = array[
     "3", 
     "4"
 ];
-
 //b) Teste a função com um array de números de sua escolha.
 
 //Exercício 5: Estruturas de Controle e Strings
@@ -106,9 +110,22 @@ echo $bolo2[5];
 
 //exemplo lista 3 com print_r
 
-$lista1 = ['jose', 'carlos', 'maria','pedro']
-$lista2 = ['flavio', 'antonio', 'jusara', 'xuxa']
-$lista3 = [...$lista1, ...$lista2];
+$lista1 = [
+    'jose', 
+    'carlos', 
+    'maria',
+    'pedro'
+];
+$lista2 = [
+    'flavio', 
+    'antonio', 
+    'jusara', 
+    'xuxa'
+];
+$lista3 = [
+    ...$lista1, 
+    ...$lista2
+];
 
 print_r($lista3);
 
