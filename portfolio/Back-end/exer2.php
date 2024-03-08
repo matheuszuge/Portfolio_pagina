@@ -4,11 +4,16 @@
 
 //a) Crie um array chamado $paises com os nomes de cinco países diferentes.
 
-$paises = array=("gales", "frança", "italia", "brasil", "venezuela")
+$paises = array=["gales", "frança", "italia", "brasil", "venezuela"]
 
 //b) Utilize um loop for para imprimir cada país do array.
 
-$paises = array=("gales", "frança", "italia", "brasil", "venezuela")
+$paises = array=["gales", 
+    "frança", 
+    "italia", 
+    "brasil", 
+    "venezuela"
+];
 foreach ($paises as $pai) {
     echo $pai."br"
 }
@@ -58,7 +63,12 @@ function mediaArray($numeros) {
     $num2 = $numeros % $num;
     echo $num;
 }
-$numeros = array("2", "2", "3", "4")
+$numeros = array[
+    "2", 
+    "2", 
+    "3", 
+    "4"
+];
 
 //b) Teste a função com um array de números de sua escolha.
 
@@ -74,5 +84,53 @@ $numeros = array("2", "2", "3", "4")
 //Se precisar explicar o raciocínio ou a lógica por trás do código, sinta-se à vontade para fazer isso.
 //Teste as funções ou loops com exemplos para garantir que funcionem corretamente.
 //Esses exercícios visam praticar diferentes aspectos do PHP, incluindo arrays, loops, funções e manipulação de strings. Boa prática!
+
+//Exercicios/anotações b7web
+
+//Exemplo de array spread (php 7.4)
+<?php
+$bolo1 = [
+    'açucar'
+    'farinha'
+    'ovo'
+    'leiote'
+    'fermento'
+];
+
+$bolo2 = [
+    ...$bolo1,
+    'corante'
+];
+
+echo $bolo2[5];
+
+//exemplo lista 3 com print_r
+
+$lista1 = ['jose', 'carlos', 'maria','pedro']
+$lista2 = ['flavio', 'antonio', 'jusara', 'xuxa']
+$lista3 = [...$lista1, ...$lista2];
+
+print_r($lista3);
+
+//exercicio array corrigir codigo
+
+$lista = [
+    'nome' => 'matheus',
+    'idade' => '90',
+    'atributos' => [
+    'força' => '60',
+    'agilidade' => '80',
+    'deztreza' => '50',
+    'vida' => '1000',
+    'mana' => '928',
+    ]
+];
+
+//=> é atribulo de um array associativo
+
+echo "nome: " .$lista['nome'] . "<br/>";
+echo "força: " .$lista['atributos']['força'] . "<br/>";
+echo "vida: " .$lista['atributos']['vida'];
+
 
 />
