@@ -1,0 +1,87 @@
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    padding-top: 5vh ;
+    margin-top: 0%;
+    position: relative;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    position: relative;
+
+} 
+.intro {
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    width: 40%;
+}
+
+
+#projetos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    padding-top: 5vh ;
+    margin-top: 0%;
+    position: relative;
+    background-color: aqua;
+}
+
+#contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    padding-top: 5vh ;
+    margin-top: 0%;
+    position: relative;
+    background-color: aqua;
+}
+
+#sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    padding-top: 5vh ;
+    margin-top: 0%;
+    position: relative;
+    background-color: aqua;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    position: relative;
+
+} 
+.intro {
+    align-items: center;
+    padding: 4rem 2.5rem;
+    color: black;
+    margin: 2.5rem 10rem;
+    width: 40%;
+}
+
+

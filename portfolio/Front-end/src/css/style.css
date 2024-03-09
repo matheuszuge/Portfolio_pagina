@@ -5,25 +5,23 @@
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   }
   html{
-    margin: 0px;
+    margin: 0;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background-color: #ffffff;
     height: 100%;
+    overflow-x: hidden;
   }
   
   body {
     /*overflow-y: hidden; /* Impede a rolagem vertical   */
-    margin-bottom: 20vh;
+    flex-grow: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    overflow-x: hidden;
   }
-
-  /* .logo-banner{
-    width: 40px;
-    padding: 50px;
-    display: relative;
-    position: relative;
-  }  */
-  
-
   .buttonClass {
     font-family: 'Cormorant', serif;
     font-size:18px;
@@ -43,7 +41,7 @@
     align-items: center; 
     text-align: center;
     justify-content: center;
-    width: 100px;
+    width: 150px;
   }
   .buttonClass:hover {
     color:#ffffff;
@@ -88,37 +86,47 @@
   .container{
     padding: 2px 16px;
   }
-  .fim{
-    margin-top: 10%;
-  }
   .footer{
-  background-color: rgb(31, 30, 30);
-  bottom: 0;    
-  color: white;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 20vh;
-  padding-top: 10vh;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    bottom: 0;
+    left: 0;
   }
-  .footer1{
+  .containerFooter{
     width: 33%;
     margin: 10px;
     text-align: center;
     align-items: center;
+    bottom: 0;
+    left: 0;
   }
-  .footer2{
+  .containerNavFooter{
     width: 33%;
     margin: 10px;
     text-align: center;
+    bottom: 0;
+    left: 0;
   }
-  .footer3{
+  .containerFooterTermos{
     width: 33%;
     margin: 10px;
     text-align: center;
+    bottom: 0;
+    left: 0;
    }
-  @media (max-width: 999px) {
+
+  
+  
+  
+  
+  
+   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
     }
@@ -155,50 +163,3 @@
     }
   }
 
-  /* AJUSTE DOS FORMULARIOS CONTATO */
-  
-
-.titutloContato{
-  margin-left: 40px;
-}
-.formularioContato{
-  width: 50%
-}
-
-  form {
-    font-family: Arial, sans-serif;
-    width: 40%; /* Ajuste a largura conforme necessário */
-    margin-bottom: 400px;
-    margin-left: 40px;
-    height: 100px;
-    display: absolute;
-  
-  }
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  input[type=text],
-  select,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
