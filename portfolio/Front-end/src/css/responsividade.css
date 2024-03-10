@@ -1,0 +1,34 @@
+@media (max-width: 480px) {
+    #navBar{
+      padding: 10px;
+    }
+    #inicio{
+      padding: 10px;
+      display: none;
+      flex-direction: column;
+    }
+    #sobre{
+      padding: 10px;
+    }
+    #contato{
+      padding: 10px;
+      background-color:rgb(255, 255, 255)
+    }
+    #projetos{
+      display: none;
+      padding: 10px;
+    }
+    #banner{
+      display: none;
+    }
+    .nav-list{
+      display: none;
+    }
+    .footer{
+      display: none;
+      padding: 10px;
+      margin: 0;
+    }
+}
+
+
