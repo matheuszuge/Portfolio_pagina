@@ -45,29 +45,31 @@
     <section id="sobre">
 
       <div>
-        <h1>
+        <h1>Sobre</h1>
+        <p>
           Olá! Meu nome é Matheus Züge, tenho 24 anos e sou apaixonado por transformar ideias em 
           realidade através da programação. Casado e em constante busca por conhecimento, estou 
           dedicando meu tempo ao estudo das linguagens PHP, Javascript e HTML/CSS.<br/><br/>
           Atualmente, meu conhecimento inclui os fundamentos dessas linguagens, além de sólidos
           conhecimentos em lógica de programação e códigos básicos. Estou comprometido em aprimorar
           minhas habilidades para contribuir efetivamente no desenvolvimento de soluções para as
-          necessidades das empresas.<br/>
+          necessidades das empresas.<br/><br/>
           Este portfolio representa meu esforço contínuo para desafiar-me, criando projetos que
           demonstram meu progresso e competência nas linguagens de programação.
 
-        </h1>
+        </p>
       </div>
     </section>
     <section id="projetos">
       <div>
-        <h1>copia site</h1>
+        <h1>Projetos</h1>
+        <p id="copiaSite1">copia site1</p>
       </div>
       <div>
-        <h1>copia site</h1>
+        <p id="copiaSite2">copia site2</p>
       </div>
       <div>
-        <h1>copia site</h1>
+        <p id="copiaSite3">copia site3</p>
       </div>
     </section>
 
@@ -75,23 +77,21 @@
 
 <section id="contato">
   <div class="formulario">
+    <h1 class="contatoTitulo">Contato</h1>
       <div class="formularioContato">
-        <h1 class="titutloContato">Mande uma Mensagem</h1>
+        <p class="titutloContato">Mande uma Mensagem</p>
         <form>
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
         <label for="email">E-mail:</label>
         <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
-        <label for="sexo">Sexo:</label>
-        <select id="sexo" name="sexo">
-          <option value="masculino">Masculino</option>
-          <option value="feminino">Feminino</option>
-          <option value="outro">Outro</option>
         </select>
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
         <input type="submit" value="Enviar">
       </form>
+
+      <!-- <div id="mapa"> aqui vai um mapa/localização</div> -->
     </div>
   </div>
 </section>
@@ -105,18 +105,26 @@
     <div class="containerFooter">
       <a class="logo2" href="#">Matheus Züge <p style="font-size: 15px;">Portfólio</a>
     </div>
-    <div class="containerNavFooter">
-      <ul class="nav-list">
-        <li><a class="item" href="index.html">Início</a></li>
-        <li><a class="item" href="sobre.html">Sobre</a></li>
-        <li><a class="item" href="projetos.html">Projetos</a></li>
-        <li><a class="item" href="contato.html">Contato</a></li>
-      </ul>
+    <div class="gridRedes">
+      
+      <a href="https://www.linkedin.com/in/matheusrobertozuge-6b6ab1182/" target="_blank">
+        <img id="Linkedin" src="/portfolio/Front-end/public/linkedin.png" alt="Linkedin">
+      </a>
+
+      <a href="https://github.com/matheuszuge" target="_blank">
+      <img href="https://github.com/matheuszuge" id="Github" src="/portfolio/Front-end/public/github.png" alt="Github">
+      </a>
+
+      <a href="https://www.instagram.com/matheuszuge/" target="_blank">
+      <img href="https://www.instagram.com/matheuszuge/" id="Instagram" src="/portfolio/Front-end/public/instagram.png" alt="Instagram">
+    </a>
     </div>
     <div class="containerFooterTermos">
+    <a href="/portfolio/Front-end/src/html/politicas.html" target="_blank">
       <p>Política de Privacidade</p>
       <p>Termos e Condições</p>
       <p>Políticas</p>
+    </a>
     </div>
   </div>
   <script src="/portfolio/Front-end/src/index.js"></script>

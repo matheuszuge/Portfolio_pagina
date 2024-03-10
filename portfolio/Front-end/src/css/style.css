@@ -121,11 +121,6 @@
     left: 0;
    }
 
-  
-  
-  
-  
-  
    @media (max-width: 999px) {
     body {
       overflow-x: hidden;
@@ -162,4 +157,28 @@
       transform: translateX(0);
     }
   }
+.gridRedes{
+  justify-content: space-around;
+  margin: 20px;
+  display: flex;
+  gap: 6rem;
+  
+}
 
+#Github{
+  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+#Instagram{
+  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+#Linkedin{
+  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
+}
