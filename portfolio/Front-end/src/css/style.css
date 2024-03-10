@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
   }
   html{
     margin: 0;
@@ -10,6 +11,8 @@
     background-color: #ffffff;
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
   }
   
   body {
@@ -146,5 +149,10 @@
   border-radius: 10px;
   width: 3rem;
   height: 3rem;
+}
+
+.sobreTitulo{
+  margin-bottom: 2rem;
+  text-align: center;
 }
 

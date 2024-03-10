@@ -61,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 4rem 2.5rem;
     color: black;
     margin: 2.5rem 10rem;
@@ -73,36 +74,39 @@
     padding: 50px; 
 }
 #copiaSite1{
-    border: 2px solid;
     width: 400px;
     height: 400px;
     text-align: center;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 #copiaSite2{
-    border: 2px solid;
     width: 400px;
     height: 400px;
     text-align: center;
     align-items: center;
+    justify-content: space-evenly;
+    display: flex;
 }
 #copiaSite3 {
-    border: 2px solid;
     width: 400px;
     height: 400px;
     text-align: center;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+
 
 .formulario {
     max-width: 600px; 
 }
-
   .formularioContato {
     display: flex;
     flex-direction: column;
   }
-  
   .titutloContato {
     color: #333; 
     margin-bottom: 2rem;
@@ -113,11 +117,9 @@
     gap: 2px;
     width: 50vh;
   }
-  
   label {
     font-weight: bold;
   }
-  
   input,
   select,
   textarea {
@@ -129,11 +131,9 @@
     border: 1px solid #ccc; 
     border-radius: 5px;
   }
-  
   textarea {
     height: 100px; /
   }
-
   input[type="submit"] {
     background-color: #4caf50; 
     color: white; 
@@ -143,36 +143,36 @@
     padding: 15px;
     font-size: 16px;
   }
-  
   input[type="submit"]:hover {
     background-color: #45a049; 
   }
-
   .mapa{
     flex-grow: 1; 
     margin-left: 20px; 
   }
-  
   .contatoTitulo{
     margin-bottom: 2rem;
     color: #333;
-  
 }
-
 .contatoContainer {
         display: flex;
         width: 100%;
       }
 #projetosTitulo{
+    margin-bottom: 8vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.contatoTitulo{
     margin-bottom: 10vh;
     align-items: center;
     text-align: center;
     margin-top: 10vh;
 }
 
-.ccontatoTitulo{
-    margin-bottom: 10vh;
-    align-items: center;
-    text-align: center;
-    margin-top: 10vh;
+#copiaSiteParagrafo{
+  flex-direction: column;
+  
 }
