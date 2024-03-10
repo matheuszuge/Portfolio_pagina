@@ -1,178 +1,189 @@
 #banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 2.5rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    padding-top: 5vh ;
-    margin-top: 0%;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2.5rem;
+  color: black;
+  margin: 2.5rem 10rem;
+  padding-top: 5vh ;
+  margin-top: 0%;
+  position: relative;
 }
-.section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    position: relative;
-} 
 .intro {
-    align-items: center;
-    padding: 4rem 2.5rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    width: 40%;
-    align-items: center;
-    padding: 4rem 2.5rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    width: 40%;
+  align-items: center;
+  padding: 4rem 2.5rem;
+  color: black;
+  margin: 2.5rem 10rem;
+  width: 40%;
+  align-items: center;
+  padding: 4rem 2.5rem;
+  color: black;
+  margin: 2.5rem 10rem;
+  width: 40%;
 }
+
 #sobre{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 26rem;
-    color: rgb(255, 255, 255);
-    margin: 2.5rem 10rem;
-    padding-top: 5vh ;
-    margin-top: 0%;
-    position: relative;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    text-align: justify;
-    margin: 0;
-    background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 26rem;
+  color: rgb(255, 255, 255);
+  margin: 2.5rem 10rem;
+  padding-top: 5vh ;
+  margin-top: 0%;
+  position: relative;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  text-align: justify;
+  margin: 0;
+  background-color: #333;
 }
+
 #projetos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 2.5rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    padding-top: 5vh ;
-    margin-top: 0%;
-    position: relative;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2.5rem;
+  color: black;
+  margin: 2.5rem 10rem;
+  padding-top: 5vh ;
+  margin-top: 0%;
+  position: relative;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 #contato{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 4rem 2.5rem;
-    color: black;
-    margin: 2.5rem 10rem;
-    padding-top: 5vh ;
-    margin-top: 0%;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-color: #f0f0f0; 
-    padding: 50px; 
+  display: flex;
+  justify-content: space-betwenn;
+  /*align-items: center;*/
+   /*text-align: center;*/
+  padding: 4rem 2.5rem;
+  color: black;
+  margin: 2.5rem 10rem;
+  padding-top: 5vh ;
+  margin-top: 0%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0; 
+  padding: 50px; 
 }
+
 #copiaSite1{
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 2rem, solid;
 }
+
 #copiaSite2{
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
 }
+
 #copiaSite3 {
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
-
-
 
 .formulario {
-    max-width: 600px; 
+  max-width: 600px; 
 }
-  .formularioContato {
-    display: flex;
-    flex-direction: column;
-  }
-  .titutloContato {
-    color: #333; 
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  form {
-    display: grid;
-    gap: 2px;
-    width: 50vh;
-  }
-  label {
-    font-weight: bold;
-  }
-  input,
-  select,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-  }
-  textarea {
-    height: 100px; /
-  }
-  input[type="submit"] {
-    background-color: #4caf50; 
-    color: white; 
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 16px;
-  }
-  input[type="submit"]:hover {
-    background-color: #45a049; 
-  }
-  .mapa{
-    flex-grow: 1; 
-    margin-left: 20px; 
-  }
-  .contatoTitulo{
-    margin-bottom: 2rem;
-    color: #333;
+.formularioContato {
+  display: flex;
+  flex-direction: column;
 }
-.contatoContainer {
-        display: flex;
-        width: 100%;
-      }
-#projetosTitulo{
-    margin-bottom: 8vh;
-    align-items: center;
-    text-align: center;
-    margin-top: 8vh;
+
+.titutloContato {
+  color: #333; 
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 2px;
+  width: 50vh;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px; /
+}
+
+input[type="submit"] {
+  background-color: #4caf50; 
+  color: white; 
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; 
 }
 
 .contatoTitulo{
-    margin-bottom: 10vh;
-    align-items: center;
-    text-align: center;
-    margin-top: 10vh;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.contatoContainer {
+  display: flex;
+  width: 100%;
+}
+
+#projetosTitulo{
+  margin-bottom: 8vh;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.contatoTitulo{
+  margin-bottom: 10vh;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
 }
 
 #copiaSiteParagrafo{
   flex-direction: column;
   
+}
+
+#mapa{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  margin-left: 50px;
 }

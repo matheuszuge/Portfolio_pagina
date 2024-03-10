@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/section.css" />
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/style.css" />
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/responsividade.css" />
-  
 </head>
 <body>
   <header>
@@ -47,7 +46,7 @@
         <p>
 
           Matheus Züge tem  24 anos de idade, é um aluno dedicado ao desenvolvimento 
-          de software. Seu foco de estudo concentra-se nas linguagens PHP, Javascript e HTML/CSS.<br/><br/>
+          web. Seu foco de estudo concentra-se nas linguagens PHP, Javascript e linguagens de marcação como HTML/CSS.<br/><br/>
           No momento, ele possui entendimento dos fundamentos dessas linguagens, 
           bem como habilidades em lógica de programação e codificação básica. 
           Matheus está comprometido em aprimorar suas competências para contribuir 
@@ -64,17 +63,14 @@
     <section id="projetos">
       
       <div id="copiaSite1">
-        <img src="/portfolio/Front-end/public/netflix.png"/>
         <p id="copiaSiteParagrafo"> Em desenvolvimento</p>
       </div>
 
       <div  id="copiaSite2">
-        <img src="/portfolio/Front-end/public/netflix.png"/>
         <p> Em desenvolvimento</p>
       </div>
       
       <div id="copiaSite3">
-        <img src="/portfolio/Front-end/public/netflix.png" />
         <p> Em desenvolvimento</p>
       </div>
 
@@ -94,12 +90,15 @@
         </select>
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar"/>
       </form>
 
-      <!-- <div id="mapa"> aqui vai um mapa/localização</div> -->
+
+
     </div>
   </div>
+
+  <div id="mapa"></div>
 </section>
 
 </main>
@@ -133,6 +132,14 @@
     </a>
     </div>
   </div>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
   <script src="/portfolio/Front-end/src/index.js"></script>
 </body>
 </html>
