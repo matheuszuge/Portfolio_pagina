@@ -7,3 +7,6 @@ const layer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dar
 });
 
 layer.addTo(mapa);
+
+const marker = L.marker([-26.301864,-48.849932]);
+marker.addTo(mapa); 
