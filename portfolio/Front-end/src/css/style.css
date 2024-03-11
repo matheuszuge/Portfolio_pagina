@@ -6,6 +6,9 @@
   scroll-behavior: smooth;
 }
 
+*:focus {
+  outline: none;
+}
 html {
   margin: 0;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
@@ -169,4 +172,8 @@ nav {
 .sobreTitulo {
   margin-bottom: 2rem;
   text-align: center;
+}
+
+#mensagem{
+  resize: none;
 }

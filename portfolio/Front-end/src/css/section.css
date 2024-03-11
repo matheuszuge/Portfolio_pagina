@@ -38,17 +38,53 @@
   background-color: #333;
 }
 
-#projetos{
+#conteinerHabilidades {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+#habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 4rem 2.5rem;
   color: black;
   margin: 2.5rem 10rem;
-  padding-top: 5vh ;
+  padding-top: 5vh;
   margin-top: 0%;
   position: relative;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+#habilidades1,
+#habilidades2,
+#habilidades3 {
+  width: 150px; 
+  height: 150px; 
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  margin: 100px;
+}
+
+#habilidades2 {
+  width: 100px;
+  height: 100px; 
+}
+
+#habilidades3 {
+  width: 130px; 
+  height: 130px; 
+}
+#habilidadesTitulo{
+  margin-bottom: 0vh;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vh;
 }
 #contato{
   display: flex;
@@ -65,34 +101,6 @@
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background-color: #f0f0f0; 
   padding: 50px; 
-}
-
-#copiaSite1{
-  width: 400px;
-  height: 400px;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 2rem, solid;
-}
-
-#copiaSite2{
-  width: 400px;
-  height: 400px;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
-}
-
-#copiaSite3 {
-  width: 400px;
-  height: 400px;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .formulario {
@@ -159,23 +167,15 @@ input[type="submit"]:hover {
   width: 100%;
 }
 
-#projetosTitulo{
-  margin-bottom: 8vh;
-  align-items: center;
-  text-align: center;
-  margin-top: 8vh;
-}
-
 .contatoTitulo{
   margin-bottom: 10vh;
   align-items: center;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 0vh;
 }
 
 #copiaSiteParagrafo{
   flex-direction: column;
-  
 }
 
 #mapa{
@@ -184,6 +184,31 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   height: 400px;
-  width: 400px;
   margin-left: 50px;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 50px;
+}
+
+#mapaContainer{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  margin-left: 50px;
+  width: 50px;
+  flex-direction: column;
+  width: 100px;
+}
+
+
+.conteinerFotoMC{
+  margin-left: 100px;
+  display: flex;
+  border-radius: 10px;
+}
+.fotoMC{
+  margin-left: 100px;
+  border-radius: 10px;
 }
