@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Portfólio Matheus Züge</title>
+  <link id="icon" rel="icon" href="/portfolio/Front-end/public/mz.JPG" type="image/x-icon">
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/section.css" />
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/style.css" />
   <link rel="stylesheet" href="/portfolio/Front-end/src/css/responsividade.css" />
@@ -39,10 +40,12 @@
    
   </header>
 <main>
+
+  <div id="containerSobre">
     <section id="sobre">
 
       <div>
-        <h1 class="sobreTitulo">Sobre mim</h1>
+        <h2 class="sobreTitulo">Sobre mim</h2>
         <p>
 
           Matheus Züge tem  24 anos de idade, é um aluno dedicado ao desenvolvimento 
@@ -55,12 +58,10 @@
           apresentando projetos que evidenciam seu progresso e competência no campo das linguagens de programação.
 
         </p>
+
       </div>
-
-
-
     </section>
-    
+  </div>
 
     <h2 id="habilidadesTitulo">Habilidades</h2>
     
@@ -117,9 +118,21 @@
 </main>
   <div class=" Fim">
   </div>
-  <div class="footer">
+
+  <footer class="footer">
     <div class="containerFooter">
-      <a class="logo2" href="#">Matheus Züge <p style="font-size: 15px;">Portfólio</a>
+
+    <div> logo/informações</div>
+    <div> gride de redes socialis </div>
+    <div> policita privacidade </div>
+    <div> direitos reservados </div>
+
+
+
+
+
+
+      <!-- <a class="logo2" href="#">Matheus Züge <p style="font-size: 15px;">Portfólio</a>
     </div>
     <div class="gridRedes">
       <a href="https://www.linkedin.com/in/matheusrobertozuge-6b6ab1182/" target="_blank">
@@ -132,6 +145,9 @@
       <img href="https://www.instagram.com/matheuszuge/" id="Instagram" src="/portfolio/Front-end/public/instagram.png" alt="Instagram">
     </a>
     </div>
+
+  
+
     <div class="containerFooterTermos">
     <a href="/portfolio/Front-end/src/html/politicas.html" target="_blank">
       <p>Política de Privacidade</p>
@@ -139,14 +155,22 @@
       <p>Políticas</p>
     </a>
     </div>
-  </div>
+
+    <p id="copy">&copy; <?php echo date('Y'); ?> Matheus Züge. Todos os direitos reservados.</p>
+    -->
+  
+  </footer>
+
+
+
+
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
-
   <script src="/portfolio/Front-end/src/index.js"></script>
 </body>
 </html>
