@@ -1,34 +1,20 @@
-@media (max-width: 480px) {
-    #navBar{
-      padding: 10px;
-    }
-    #inicio{
-      padding: 10px;
-      display: none;
-      flex-direction: column;
-    }
-    #sobre{
-      padding: 10px;
-    }
-    #contato{
-      padding: 10px;
-      background-color:rgb(255, 255, 255)
-    }
-    #projetos{
-      display: none;
-      padding: 10px;
-    }
-    #banner{
-      display: none;
-    }
-    .nav-list{
-      display: none;
-    }
-    .footer{
-      display: none;
-      padding: 10px;
-      margin: 0;
-    }
+@media (max-width: 1690px){
+  section{
+      padding: 50px 5% 40px;
+  }
 }
 
-
+@media (max-width: 1120px){
+  .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto)) ;
+      gap: 2rem;
+  }
+}
+@media (max-width: 700px){
+  .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+      gap: 2.5rem;
+  }
+}
