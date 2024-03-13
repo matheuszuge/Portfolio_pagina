@@ -121,5 +121,83 @@ function encontrarMaiorNumero($numeros) {
 
 $array_numeros = array(10, 5, 8, 20, 15);
 echo "O maior número no array é: " . encontrarMaiorNumero($array_numeros);
+
+
+// EXERCICIOS DE LOOP
+
+
+$numero = 0;
+
+while ($numero = 10) {
+    echo "N: ".numero."<br/>";
+
+    $numero += 1;
+}
+
+
+for ($i=0;$i<10;$i++){
+    echo $i.'<br/>';
+}
+
+
+
+$ingredientes = [
+    'acucar',
+    'farinha de trigo',
+    'ovo',
+    'leite',
+    'fermento em pó',
+
+];
+
+foreach ($igredientes as $chave => $igrediente) {
+    echo "item: ".$chave.": ".$igrediente."<br/>";
+}
+
+
+
+$ingredientes = [
+    'acucar',
+    'farinha de trigo',
+    'ovo',
+    'leite',
+    'fermento em pó',
+
+];
+
+echo '<ul>'
+
+foreach ($igredientes as $igrediente) {
+    echo '<li>'.$igrediente.'</li>':
+}
+echo '</ul>'
+
+//-------------------------------
+
+
+//exercicios de funções
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
 
