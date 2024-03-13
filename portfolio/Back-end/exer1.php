@@ -207,6 +207,81 @@ Se precisar explicar o raciocínio ou a lógica por trás do código, sinta-se �
 Espero que essas perguntas ajudem a consolidar seus conhecimentos em PHP!
 */
 
+function subsequente() {
+    for($q=0; $q<10;$q++); {
+        echo $q."<br/>";     
+    }
+
+    echo "<br/>";
+}
+
+for($q=0; $q<10;$q++); {
+    subsequente();   
+}
+
+
+//arow function (funções anonimas simplificadas em uma expressão)
+$dizimo = fn($valor) => $valor * 0.1;
+
+
+//função recursiva = função que executa ela mesma
+
+function dividir($numero) {
+    $metade = $numero % 2;
+    echo $metade.('<br/>');
+
+    if (round($metade) > 0) {
+        dividir($metade)
+    }
+}   
+
+// funções nativas de matematica
+
+// returna numero positivo
+$numer = -8.4;
+
+echo abs($numero)
+
+//função pi 
+
+echo pi()
+
+// aredondar numero para baixo
+
+echo floor(2.4)
+
+//areedondar para cima
+
+echo ceil($numero);
+
+//aredondar dependendo do numero: 
+echo round($numero)
+
+
+// função que passa numero aleatorio
+
+$aleatorio = rand(3, 9); //recebe os parametros e gera um aleatorio entre eles. 
+echo $aleatorio;
+
+
+// Saber maior/menor do array;
+
+$lista = [
+    '1',
+    '2',
+    '3',
+    '4',
+];
+$maior = max($lista);
+echo $maior; //função vai passar o maior numero dentro do array
+
+
+
+
+
+
+
+
 
 
 

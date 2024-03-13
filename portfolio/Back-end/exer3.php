@@ -154,8 +154,6 @@ foreach ($igredientes as $chave => $igrediente) {
     echo "item: ".$chave.": ".$igrediente."<br/>";
 }
 
-
-
 $ingredientes = [
     'acucar',
     'farinha de trigo',
