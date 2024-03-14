@@ -1,6 +1,15 @@
-<h2>Esse é um repositorio criado para poder colocar em pratica o aprendizado realizado em html5, css3 e javascript. 
-Assim, asumi o projeto de realizar um porftfolio a onde irei postar meu desempenho e estudo a respeito de desenvolvimento web. 
-</h2>
+# Feactures Utilizadas
+
+Este repositório contém um site de portfólio simples, desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML5**: Utilizado para estruturar o conteúdo do site, incluindo a organização de seções, cabeçalhos, parágrafos e listas.
+
+- **CSS3**: Utilizado para estilizar o site, incluindo layout, cores, tipografia e animações. Foram aplicadas técnicas modernas de CSS, como Flexbox ou Grid Layout, para criar um design responsivo e atrativo.
+
+- **JavaScript**: Utilizado para adicionar interatividade ao site, como a manipulação do DOM (Document Object Model).
+  
+O site de portfólio foi desenvolvido com foco na simplicidade, performance e usabilidade, destacando as habilidades e projetos do autor.
+
 
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/3866b96c-d99a-4f5d-a1b8-cdf925953780)
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/35a9a178-4b73-41ba-9a6e-acb717fe8005)
