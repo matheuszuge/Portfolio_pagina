@@ -21,7 +21,6 @@
   margin: 2.5rem 10rem;
   width: 40%;
 }
-
 #sobre{
   display: flex;
   justify-content: space-between;
@@ -37,14 +36,12 @@
   margin: 0;
   background-color: #333;
 }
-
 #conteinerHabilidades {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
 #habilidades {
   display: flex;
   align-items: center;
@@ -57,7 +54,6 @@
   position: relative;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
-
 #habilidades1,
 #habilidades2,
 #habilidades3 {
@@ -70,12 +66,10 @@
   border-radius: 2rem;
   margin: 100px;
 }
-
 #habilidades2 {
   width: 100px;
   height: 100px; 
 }
-
 #habilidades3 {
   width: 130px; 
   height: 130px; 
@@ -102,7 +96,6 @@
   background-color: #f0f0f0; 
   padding: 50px; 
 }
-
 .formulario {
   max-width: 600px; 
 }
@@ -110,23 +103,19 @@
   display: flex;
   flex-direction: column;
 }
-
 .titutloContato {
   color: #333; 
   margin-bottom: 2rem;
   text-align: center;
 }
-
 form {
   display: grid;
   gap: 2px;
   width: 50vh;
 }
-
 label {
   font-weight: bold;
 }
-
 input,
 select,
 textarea {
@@ -138,11 +127,9 @@ textarea {
   border: 1px solid #ccc; 
   border-radius: 5px;
 }
-
 textarea {
   height: 100px; /
 }
-
 input[type="submit"] {
   background-color: #4caf50; 
   color: white; 
@@ -152,32 +139,26 @@ input[type="submit"] {
   padding: 15px;
   font-size: 16px;
 }
-
 input[type="submit"]:hover {
   background-color: #45a049; 
 }
-
 .contatoTitulo{
   margin-bottom: 2rem;
   color: #333;
 }
-
 .contatoContainer {
   display: flex;
   width: 100%;
 }
-
 .contatoTitulo{
   margin-bottom: 10vh;
   align-items: center;
   text-align: center;
   margin-top: 0vh;
 }
-
 #copiaSiteParagrafo{
   flex-direction: column;
 }
-
 #mapa{
   flex: 1;
   display: flex;
@@ -189,7 +170,6 @@ input[type="submit"]:hover {
   width: 70%;
   margin-top: 50px;
 }
-
 #mapaContainer{
   flex: 1;
   display: flex;
@@ -201,8 +181,6 @@ input[type="submit"]:hover {
   flex-direction: column;
   width: 100px;
 }
-
-
 .conteinerFotoMC{
   margin-left: 100px;
   display: flex;
