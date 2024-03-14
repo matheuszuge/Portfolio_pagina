@@ -1,14 +1,16 @@
-# Feactures Utilizadas
+# Portfólio de Matheus Züge
 
-Este repositório contém um site de portfólio simples, desenvolvido utilizando as seguintes tecnologias:
+## Tecnologias Utilizadas
 
-- **HTML5**: Utilizado para estruturar o conteúdo do site, incluindo a organização de seções, cabeçalhos, parágrafos e listas.
+### Frontend
+- **HTML5:** Linguagem de marcação usada para estruturar o conteúdo da web.
+- **CSS3:** Linguagem de estilização usada para projetar e formatar a aparência dos elementos HTML.
+- **JavaScript:** Linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas web.
+- **Leaflet:** Biblioteca JavaScript de código aberto para criação de mapas interativos.
 
-- **CSS3**: Utilizado para estilizar o site, incluindo layout, cores, tipografia e animações. Foram aplicadas técnicas modernas de CSS, como Flexbox ou Grid Layout, para criar um design responsivo e atrativo.
+## Licença
 
-- **JavaScript**: Utilizado para adicionar interatividade ao site, como a manipulação do DOM (Document Object Model).
-  
-O site de portfólio foi desenvolvido com foco na simplicidade, performance e usabilidade, destacando as habilidades e projetos do autor.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
 
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/3866b96c-d99a-4f5d-a1b8-cdf925953780)
