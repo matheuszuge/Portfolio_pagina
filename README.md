@@ -8,9 +8,6 @@
 - **JavaScript:** Linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas web.
 - **Leaflet:** Biblioteca JavaScript de código aberto para criação de mapas interativos.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
 
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/3866b96c-d99a-4f5d-a1b8-cdf925953780)
