@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Portfólio Matheus Züge</title>
-  <link id="icon" rel="icon" href="/portfolio/Front-end/public/mz.JPG" type="image/x-icon">
-  <link rel="stylesheet" href="/portfolio/Front-end/src/css/section.css" />
-  <link rel="stylesheet" href="/portfolio/Front-end/src/css/style.css" />
-  <link rel="stylesheet" href="/portfolio/Front-end/src/css/responsividade.css" />
+  <link id="icon" rel="icon" href="/portfolio/Frontend/public/mz.JPG" type="image/x-icon">
+  <link rel="stylesheet" href="/portfolio/Frontend/src/css/section.css" />
+  <link rel="stylesheet" href="/portfolio/Frontend/src/css/style.css" />
+  <link rel="stylesheet" href="/portfolio/Frontend/src/css/responsividade.css" />
   <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
   
@@ -35,7 +35,7 @@
           <div class="buttonContato"><a href="#contato" class="buttonClass">Entrar em contato</a></div>
         </div>
         <div>
-          <img style="width: 70%;" class="logo-banner" src="/portfolio/Front-end/public/about.svg"/>
+          <img style="width: 70%;" class="logo-banner" src="/portfolio/Frontend/public/about.svg"/>
         </div>
       </div>
         </section>
@@ -107,15 +107,19 @@
   <div class="formulario">
       <div class="formularioContato">
         <h2 class="titutloContato">Mande uma Mensagem</h2>
-        <form action="/portfolio/Back-end/testeEmail.php" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-        <label for="email">E-mail:</label>
-        <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
-        </select>
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
-        <input type="submit" value="Enviar"/>
+      
+        <form action="portfolio\Backend\validacao.php" method="post">
+      
+          <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+          <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
+          <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+          <input type="submit" value="Enviar"/>
+      
+      
+      
       </form>
     </div>
   </div>
@@ -236,6 +240,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
-  <script src="/portfolio/Front-end/src/index.js"></script>
+  <script src="/portfolio/Frontend/src/index.js"></script>
 </body>
 </html>
