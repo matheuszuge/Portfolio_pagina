@@ -1,4 +1,6 @@
 # Portfólio de Matheus Züge
+Este portfólio online foi desenvolvido como parte de um projeto pessoal, com o objetivo de apresentar as tecnologias estudadas e os projetos desenvolvidos em programação. Aqui, você encontrará uma seleção de experiências que refletem meu constante aprendizado e esforço em aprimorar minha capacidade lógica e habilidades técnicas.
+
 
 ## Tecnologias Utilizadas
 
