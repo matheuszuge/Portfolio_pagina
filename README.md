@@ -1,6 +1,16 @@
-<h2>Esse é um repositorio criado para poder colocar em pratica o aprendizado realizado em html5, css3 e javascript. 
-Assim, asumi o projeto de realizar um porftfolio a onde irei postar meu desempenho e estudo a respeito de desenvolvimento web. 
-</h2>
+# Portfólio de Matheus Züge
+Este portfólio online foi desenvolvido como parte de um projeto pessoal, com o objetivo de apresentar as tecnologias estudadas e os projetos desenvolvidos em programação. Aqui, você encontrará uma seleção de experiências que refletem meu constante aprendizado e esforço em aprimorar minha capacidade lógica e habilidades técnicas.
+
+
+## Tecnologias Utilizadas
+
+### Frontend
+- **HTML5:** Linguagem de marcação usada para estruturar o conteúdo da web.
+- **CSS3:** Linguagem de estilização usada para projetar e formatar a aparência dos elementos HTML.
+- **JavaScript:** Linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas web.
+- **Leaflet:** Biblioteca JavaScript de código aberto para criação de mapas interativos.
+
+
 
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/3866b96c-d99a-4f5d-a1b8-cdf925953780)
 ![image](https://github.com/matheuszuge/portfolio/assets/52630140/35a9a178-4b73-41ba-9a6e-acb717fe8005)
